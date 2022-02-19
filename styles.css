@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  background: #f3f3f3;
+  height: 1000px;
+}
+
+/* Form */
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+input[type=text] {
+  font-size: 1em;
+}
+
+input[type=checkbox] {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+input[type=range] {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+button {
+  font-family: 'Arvo';
+  font-size: 1em;
+}
+
+li {
+  margin-top: 10px;
+}
+
+img {
+  margin-top: 50px;
+}
+
+.page {
+  flex: 1;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9E4EC;
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  background-color: #6AABD2;
+}
